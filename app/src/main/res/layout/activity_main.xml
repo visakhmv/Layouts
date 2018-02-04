@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <Button
+            android:id="@+id/btnLinear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectFrag"
+            android:text="Linear Layout"/>
+
+        <Button
+            android:id="@+id/btnRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectFrag"
+            android:text="Relative Layout" />
+
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectFrag"
+            android:text="Grid Layout" />
+
+</LinearLayout>
